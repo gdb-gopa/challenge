@@ -1,6 +1,6 @@
 ## Challenge-3
 
-This very simple python script will iterates through the Value entered for the prompt and extract the value for the key combination entered. We have to pass the arguments while running the python script.
+This very simple python script will iterate through the value entered for the Key and will extract the value for the key entered. We have to pass the arguments while running the python script.
 
 Command to execute:
 
