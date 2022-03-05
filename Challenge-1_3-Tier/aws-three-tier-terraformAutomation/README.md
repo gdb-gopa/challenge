@@ -23,6 +23,7 @@ The code does the following:
 6. Configures security group for Web layer.
 7. EC2 instances for webservers.
 8. Application load balancer.
+9. Configure Route53
 
 ### Points to be noted: 
 - Please make sure you create Rout53 zone and is already available in Route53 'Hosted  Zone' Records. The values should be correctly mapped in the variables file
