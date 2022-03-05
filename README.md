@@ -1,27 +1,24 @@
 # Technical Challenge
-Repo is specifically created for a Technical Challenge
+This Repo Contains Files which is part of a Code writing Challenge - Technical
 
 ## Challenge 1
-The cloudformation script creates a 3-Tier architecture in AWS. 
 
-The stacks consists of the following resources
+The basic 3-Tier stack consists of the following resources:
 ```
-VPC, Subnets, Bastion Host, NATs, IGW
-EC2 instances using auto scaling group.
-MySql RDS.
+Internet Gateway, DNS, DMZ, Firewall, Traffic Gateway, Primary / Secondary Networks, Subnets, Web / Application / DB Servers with Disaster Recovery
 ```
+
+The Terraform Automation creates a 3-Tier architecture in AWS. 
+For Automation considering 3-Tier AWS stack, the following resources are considered:
+```
+Internet Gateway, Route53, Availability Zones, DMZ, Nat Gateway, Bastion Host, VPC, Subnets, Web / Application EC2 Instances, RDS DB
+```
+
+
 ## Challenge 2
 The 'go' script will fetch the metadata of a EC2 instance 
 This can be used to fetch whole metadata or single attribute value.
 
-For whole meta data of EC2 instance run 
-````
-go run metaData.go
-````
-for a single attribute value.
-````
-go run metaData.go ami-id
-````
 
 ## Challenge 3
 The python script will iterates through the dictionary  value and extract the key and and values
