@@ -13,7 +13,7 @@ Multiple Cloudformation templates are used
 ### Architecture Diagram
 
 
-![alt text](https://github.com/pravisivadasan/technical-challenge/blob/main/3-Tier-Architecture/AWS-3tier.png)
+![alt text](https://github.com/gdb-gopa/challenge/blob/main/Challenge-1_3-Tier/3-Tier-Architecture.jpg)
 
 
 
