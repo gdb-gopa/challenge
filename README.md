@@ -24,7 +24,7 @@ These scripts are to perform 2 operations:
 
 
 ## Challenge-3
-The very simple python script will iterates through the value entered for the prompt and extract the value for the key combination entered:
+The very simple python script will iterate through the value entered as Key and extract the value for the input entered in the prompt:
 
 Command to execute:
 
