@@ -22,4 +22,4 @@ Enter the Key : x
 
 ### Sample input and its corresponding output 
 
-![alt text](https://github.com/pravisivadasan/OnlineTest/blob/main/Nested%20Object/output.PNG)
+![alt text](https://github.com/gdb-gopa/challenge/blob/main/Challenge-3_nestedDict/Output.JPG)
