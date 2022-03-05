@@ -9,6 +9,11 @@ After initialisation has been done, you can proceed to running the "main.tf" fil
 terraform apply
 ```
 
+### AWS 3-Tier Architecture Diagram
+
+
+![alt text](https://github.com/gdb-gopa/challenge/blob/main/Challenge-1_3-Tier/3-Tier-Architecture_AWS.jpg)
+
 The code does the following:
 1. Creates a VPC with the CIDR block provided in the region you want.
 2. Creates subnets for each layer.
