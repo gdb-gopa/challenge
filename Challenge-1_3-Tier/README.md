@@ -1,4 +1,4 @@
-### challenge 1
+### Challenge-1
 
 Multiple Cloudformation templates are used
 
