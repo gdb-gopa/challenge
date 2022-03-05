@@ -1,7 +1,7 @@
 # Technical Challenge
 This Repo Contains Files which is part of a Code writing Challenge - Technical
 
-## Challenge 1
+## Challenge-1
 
 The basic 3-Tier stack consists of the following resources:
 ```
@@ -15,23 +15,27 @@ Internet Gateway, Route53, Availability Zones, DMZ, Nat Gateway, Bastion Host, V
 ```
 
 
-## Challenge 2
-The 'go' script will fetch the metadata of a EC2 instance 
-This can be used to fetch whole metadata or single attribute value.
+## Challenge-2
+The scripts are designed to fetch the metadata of the instance in JSON format, from the Elastic Compute-AWS.
+
+These scripts are to perform 2 operations:
+  - Can be used to fetch whole metadata
+  - Also, the specific attribute value of the metadata
 
 
-## Challenge 3
-The python script will iterates through the dictionary  value and extract the key and and values
+## Challenge-3
+The python script will iterates through the Value entered for the prompt and extract the value for the key combination entered:
 
-Have to pass the arguments while running the python script.
+Command to execute:
 
 ````
-python json-object.py -d "{'x':{'y':{'z':'a'}}}" -k "x/y/z"
+python3 nested_object_challenge
 ````
 
-The output of above given input arguments is
+The output of above execution:
 ````
-Keys:['x', 'y', 'z']
-Values:a
+Input the nested Object: {"a":{"b":{"c":1}}}
+Input the key: a/b
+Output  : {"c":1}
 ````
 
