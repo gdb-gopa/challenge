@@ -1,5 +1,5 @@
 # Technical Challenge
-This Repo Contains Files which is part of a Code writing Challenge - Technical
+This Repo Contains Files which are part of a Code writing Challenge - Technical
 
 ## Challenge-1
 
