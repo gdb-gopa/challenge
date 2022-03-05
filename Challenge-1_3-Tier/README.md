@@ -1,14 +1,15 @@
-### Challenge-1
+## Challenge-1
 
-Multiple Cloudformation templates are used
+The basic 3-Tier stack consists of the following resources:
+```
+Internet Gateway, DNS, DMZ, Firewall, Traffic Gateway, Primary / Secondary Networks, Subnets, Web / Application / DB Servers with Disaster Recovery
+```
 
-* network.yml : This template will create VPC, SGs, subnets, routing tables, NATs
-* ECS-cluster.yml : Its creates  ECS cluster
-* database.yml : db template creates a RDS instance 
-* ASG.yml : this templates is used to create auto scaling group which will provision EC2 instances 
-* ALB : Its creates a application load balancer 
-
-* Log.yml : For application log 
+The Terraform Automation creates a 3-Tier architecture in AWS. 
+For Automation considering 3-Tier AWS stack, the following resources are considered:
+```
+Internet Gateway, Route53, Availability Zones, DMZ, Nat Gateway, Bastion Host, VPC, Subnets, Web / Application EC2 Instances, RDS DB
+```
 
 ### Architecture Diagram
 
