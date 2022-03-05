@@ -24,18 +24,23 @@ These scripts are to perform 2 operations:
 
 
 ## Challenge-3
-The very simple python script will iterate through the value entered as Key and extract the value for the input entered in the prompt:
+
+This very simple python script will iterates through the Value entered for the prompt and extract the value for the key combination entered. We have to pass the arguments while running the python script.
 
 Command to execute:
 
 ````
-python3 nested_object_challenge
+python3 nested_object_challenge.py
 ````
 
 The output of above execution:
 ````
-Input the nested Object: {"a":{"b":{"c":1}}}
-Input the key: a/b
-Output  : {"c":1}
+Enter the Object : {'x':{'y':{'z':'a'}}}
+Enter the Key : x/y
+{'z': 'a'}
 ````
-
+````
+Enter the Object : {'x':{'y':{'z':'a'}}}
+Enter the Key : x
+{'y': {'z': 'a'}}
+````
