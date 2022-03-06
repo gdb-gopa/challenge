@@ -26,7 +26,7 @@ The code does the following:
 ### Points to be noted: 
 - Please make sure you create Rout53 zone and is already available in Route53 'Hosted  Zone' Records. The values should be correctly mapped in the variables file
 - A certificate must be created and specified for HTTPS listeners, for the ALB to be configured correctly. This should be updated correctly in the variables.tf file
-- DNS Name Entry : 3tier-challenge-example.com
+- DNS Name Entry is '3tier-challenge-example.com' for this example. Please alter this accordingly, to reflect a different DNS entry.
 
 
 
