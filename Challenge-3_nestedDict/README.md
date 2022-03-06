@@ -23,3 +23,5 @@ Enter the Key : x
 ### Sample input and its corresponding output 
 
 ![alt text](https://github.com/gdb-gopa/challenge/blob/main/Challenge-3_nestedDict/Output.JPG)
+
+Note: If any value is incorrect in the Key entered, the program will return 'None'.
