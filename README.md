@@ -44,3 +44,7 @@ Enter the Object : {'x':{'y':{'z':'a'}}}
 Enter the Key : x
 {'y': {'z': 'a'}}
 ````
+
+Note: If any value is incorrect in the Key entered, the program will return 'None'.
+
+
